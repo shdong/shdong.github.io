@@ -175,3 +175,18 @@ end
 help mymax
 mymax(34, 78, 89, 23, 11)
 ```
+
+ # Graphing  
+  - Functions of one variable 
+  ```
+    t = 0:.3:10;
+    y = sin(t);
+    plot(t,y)
+  ```  
+  - Functions of two variables  
+    ```
+    [x,y] = meshgrid(-2:.2:2, -2:.2:2);
+    z = x .* exp(-x.^2 - y.^2);
+    surf(x,y,z)
+    ```
+    !(http://www.math.utah.edu/lab/ms/matlab/gif/surface.png)
