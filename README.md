@@ -116,7 +116,7 @@ save,load
 ```
 
 
- -  The simplest type of MATLAB® program is called a script. A script is a file with a .m extension  
+ -  The simplest type of MATLAB® program is called a **script**. A script is a file with a .m extension  
  that contains multiple sequential lines of MATLAB commands and function calls.   
  You can run a script by typing its name at the command line.
 
@@ -143,9 +143,9 @@ title('Mean of Random Uniform Data')
 
 plotrand
 
-- A function is a group of statements that together perform a task.   
+- A **function** is a group of statements that together perform a task.   
 In MATLAB, functions are defined in separate files.   
-The name of the file and of the function should be the same.  
+_The name of the file and of the function should be the same_.  
 Syntax of a function statement is:  
 ```
 function [out1,out2, ..., outN] = myfun(in1,in2,in3, ..., inN)
