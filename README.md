@@ -189,4 +189,5 @@ mymax(34, 78, 89, 23, 11)
     z = x .* exp(-x.^2 - y.^2);
     surf(x,y,z)
     ```
-    !(http://www.math.utah.edu/lab/ms/matlab/gif/surface.png)
+
+    ![]( http://www.math.utah.edu/lab/ms/matlab/gif/surface.png )
