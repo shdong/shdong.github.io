@@ -1,6 +1,7 @@
 # shdong.github.io
 
-- http://www.mathworks.com/help/matlab/learn_matlab/matrices-and-arrays.html#responsive_offcanvas
+- http://www.mathworks.com/help/matlab/learn_matlab/matrices-and-arrays.html#responsive_offcanvas  
+http://www.tutorialspoint.com/matlab/
 
 - separate the elements in a single row with either a comma (,) or a space.
 
