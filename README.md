@@ -183,6 +183,9 @@ mymax(34, 78, 89, 23, 11)
     y = sin(t);
     plot(t,y)
   ```  
+
+  ![]( http://www.math.utah.edu/lab/ms/matlab/gif/sine.gif )
+
   - Functions of two variables  
     ```
     [x,y] = meshgrid(-2:.2:2, -2:.2:2);
