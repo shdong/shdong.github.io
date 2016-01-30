@@ -22,12 +22,11 @@ Hi, I am Shuhui,Dong from China. This is my first gibhua pages.
  # All variables of all data types in MATLAB are multidimensional arrays. 
  # A vector is a one-dimensional array and a matrix is a two-dimensional array.
  # Special Arrays in MATLAB
-
+```
  zeros(n), ones(m,n),eye(n), rand(m.n) ,magic(n)
-
-
+```
 # Matrix and Array Operations
-
+```
 a = [1 2 3; 4 5 6; 7 8 10]
 a + 10
 sin(a)
@@ -39,25 +38,24 @@ format long
 p
 format short
 p
-
+```
 # element-wise operators
-
+```
 p = a.*a
-
 a.^3
-
+```
 
 # Concatenation
-
+```
 A = [a,a]
-
 A = [a; a]
+```
 
 # Complex Numbers
-
+```
 sqrt(-1)
-
 c = [3+4i, 4+3j; -i, 10j]
+```
 
 # Multidimensional Arrays
 
