@@ -18,13 +18,13 @@
       7 8 10]
   ```
 
- # All variables of all data types in MATLAB are multidimensional arrays. 
- # A vector is a one-dimensional array and a matrix is a two-dimensional array.
- # Special Arrays in MATLAB
+  # All variables of all data types in MATLAB are multidimensional arrays. 
+  # A vector is a one-dimensional array and a matrix is a two-dimensional array.
+  # Special Arrays in MATLAB
 ```
  zeros(n), ones(m,n),eye(n), rand(m.n) ,magic(n)
 ```
-# Matrix and Array Operations
+ # Matrix and Array Operations
 ```
 a = [1 2 3; 4 5 6; 7 8 10]
 a + 10
@@ -38,35 +38,37 @@ p
 format short
 p
 ```
-# element-wise operators
+ # element-wise operators
 ```
 p = a.*a
 a.^3
 ```
 
-# Concatenation
+ # Concatenation
 ```
 A = [a,a]
 A = [a; a]
 ```
 
-# Complex Numbers
+ # Complex Numbers
 ```
 sqrt(-1)
 c = [3+4i, 4+3j; -i, 10j]
 ```
 
-# Multidimensional Arrays
+ # Multidimensional Arrays
 
 ```
 a
 a(:, :, 2)= [ 7 6 3; 1 9 2; 4 8 5]
 ```
 
-#We can also create multidimensional arrays using the ones(), zeros() or the rand() functions.
+ # We can also create multidimensional arrays using the ones(), zeros() or the rand() functions.
 ```
 b = rand(4,3,2)
-# Array Indexing
+```
+ # Array Indexing
+```
 A = magic(4)
 A(4,2)   %The most common way is to specify row and column subscripts
 A(8)    %use a single subscript that traverses down each column in order:
@@ -79,13 +81,13 @@ B = 0:10:100
 ```
 
 
-# Deleting a Row or a Column in a Matrix
+ # Deleting a Row or a Column in a Matrix
 ```
 a = [ 1 2 3 4 5; 2 3 4 5 6; 3 4 5 6 7; 4 5 6 7 8];
 a( 4 , : ) = []       %delete the fourth row of a 
 ```
 
-#Array Functions
+ # Array Functions
 
 size,length,ndims,diag ,numel,sort
 ```
@@ -120,10 +122,10 @@ save,load
 ```
 
 
-#The simplest type of MATLAB® program is called a script. A script is a file with a .m extension that contains multiple sequential lines of MATLAB commands and function calls. You can run a script by typing its name at the command line.
+ # The simplest type of MATLAB® program is called a script. A script is a file with a .m extension that contains multiple sequential lines of MATLAB commands and function calls. You can run a script by typing its name at the command line.
 
 
-#edit a script file named "plotrand.m" as following:
+ # edit a script file named "plotrand.m" as following:
 
 ```
 % Generate random data from a uniform distribution
@@ -141,6 +143,6 @@ hold off
 title('Mean of Random Uniform Data')
 ```
 
-#Save the file in the current folder. To run the script, type its name at the command line:
+ # Save the file in the current folder. To run the script, type its name at the command line:
 
 plotrand
