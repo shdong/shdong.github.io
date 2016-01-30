@@ -1,5 +1,4 @@
 # shdong.github.io
-Hi, I am Shuhui,Dong from China. This is my first gibhua pages.
 
 # http://www.mathworks.com/help/matlab/learn_matlab/matrices-and-arrays.html#responsive_offcanvas
 
@@ -124,7 +123,7 @@ save,load
 #The simplest type of MATLAB® program is called a script. A script is a file with a .m extension that contains multiple sequential lines of MATLAB commands and function calls. You can run a script by typing its name at the command line.
 
 
-%edit a script file named "plotrand.m" as following:
+#edit a script file named "plotrand.m" as following:
 
 ```
 % Generate random data from a uniform distribution
@@ -142,6 +141,6 @@ hold off
 title('Mean of Random Uniform Data')
 ```
 
-%Save the file in the current folder. To run the script, type its name at the command line:
+#Save the file in the current folder. To run the script, type its name at the command line:
 
 plotrand
