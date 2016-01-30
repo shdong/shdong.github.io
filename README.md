@@ -176,8 +176,8 @@ help mymax
 mymax(34, 78, 89, 23, 11)
 ```
 
- # Graphing  
-  - Functions of one variable 
+ - Graphing  
+   - Functions of one variable 
   ```
     t = 0:.3:10;
     y = sin(t);
@@ -186,7 +186,7 @@ mymax(34, 78, 89, 23, 11)
 
   ![]( http://www.math.utah.edu/lab/ms/matlab/gif/sine.gif )
 
-  - Functions of two variables  
+   - Functions of two variables  
     ```
     [x,y] = meshgrid(-2:.2:2, -2:.2:2);
     z = x .* exp(-x.^2 - y.^2);
