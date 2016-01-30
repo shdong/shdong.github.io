@@ -5,15 +5,19 @@ Hi, I am Shuhui,Dong from China. This is my first gibhua pages.
 
  #separate the elements in a single row with either a comma (,) or a space.
 
+ ```
   [1 2 3 4] [1,2,3,4]
+```
 
   # separate the rows with semicolons or 'return'
 
+  ```
   a = [1 2 3; 4 5 6; 7 8 10]
 
   a = [1 2 3
       4 5 6
       7 8 10]
+  ```
 
  # All variables of all data types in MATLAB are multidimensional arrays. 
  # A vector is a one-dimensional array and a matrix is a two-dimensional array.
