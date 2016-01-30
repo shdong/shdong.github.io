@@ -142,3 +142,35 @@ title('Mean of Random Uniform Data')
 -  Save the file in the current folder. To run the script, type its name at the command line:
 
 plotrand
+
+- A function is a group of statements that together perform a task.   
+In MATLAB, functions are defined in separate files.   
+The name of the file and of the function should be the same.  
+Syntax of a function statement is:  
+```
+function [out1,out2, ..., outN] = myfun(in1,in2,in3, ..., inN)
+```
+
+```
+function max = mymax(n1, n2, n3, n4, n5)
+%This function calculates the maximum of the
+% five numbers given as input
+max =  n1;
+if(n2 > max)
+    max = n2;
+end
+if(n3 > max)
+   max = n3;
+end
+if(n4 > max)
+    max = n4;
+end
+if(n5 > max)
+    max = n5;
+end
+```  
+
+```
+help mymax
+mymax(34, 78, 89, 23, 11)
+```
