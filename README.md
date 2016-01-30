@@ -1,8 +1,8 @@
 # shdong.github.io
 
-# http://www.mathworks.com/help/matlab/learn_matlab/matrices-and-arrays.html#responsive_offcanvas
+- http://www.mathworks.com/help/matlab/learn_matlab/matrices-and-arrays.html#responsive_offcanvas
 
- #separate the elements in a single row with either a comma (,) or a space.
+- separate the elements in a single row with either a comma (,) or a space.
 
  ```
   [1 2 3 4] [1,2,3,4]
