@@ -59,17 +59,6 @@ sqrt(-1)
 c = [3+4i, 4+3j; -i, 10j]
 ```
 
--  Multidimensional Arrays
-
-```
-a
-a(:, :, 2)= [ 7 6 3; 1 9 2; 4 8 5]
-```
-
--  We can also create multidimensional arrays using the ones(), zeros() or the rand() functions.
-```
-b = rand(4,3,2)
-```
 
 -  Array Indexing
 ```
@@ -110,7 +99,23 @@ sort(m, 2)                   % sorting m along the column
 size(m)  
 ```
 
+
+-  Multidimensional Arrays
+
 ```
+a
+a(:, :, 2)= [ 7 6 3; 1 9 2; 4 8 5]
+```
+
+-  We can also create multidimensional arrays using the ones(), zeros() or the rand() functions.
+```
+b = rand(4,3,2)
+```
+
+
+- some commands
+```
+clc ,  clear, close all
 help
 who ,whos
 save,load
