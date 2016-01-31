@@ -10,7 +10,7 @@ the the formula for cost function is:
  ![]( http://openclassroom.stanford.edu/MainFolder/courses/MachineLearning/exercises/ex2/img7.png )
 
  I wrote the c++ code for linear regression,which can be get from here:
- ![]( )
+ ![](https://github.com/shdong/shdong.github.io/blob/master/linear_regression.cpp)
 
 References:
   http://cs229.stanford.edu/notes/cs229-notes1.pdf  
