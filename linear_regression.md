@@ -12,6 +12,6 @@ the the formula for cost function is:
  I wrote the c++ code for linear regression,which can be get from [here]
  (https://github.com/shdong/shdong.github.io/blob/master/linear_regression.cpp)
 
-References:
+References:  
   http://cs229.stanford.edu/notes/cs229-notes1.pdf  
   http://openclassroom.stanford.edu/MainFolder/DocumentPage.php?course=MachineLearning&doc=exercises/ex2/ex2.html
