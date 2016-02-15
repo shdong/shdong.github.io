@@ -4,9 +4,9 @@ permalink:           pretty
 markdown:      maruku
 
 # Setup
-title:               blog.hwdong.com
+title:               Shuhui Dong
 tagline:             
-url:                 http://blog.hwdong.com
+url:                 http://shdong.github.io
 shorturl:            blog.hwdong.com
 paginate:            5
 baseurl:             ""
@@ -21,14 +21,14 @@ sass:
 
 # About/contact
 author:
-  name:              Hongwei Dong
-  url:               https://hwdong.com
-  email:             hwdong.cn@gmail.com
+  name:              Shuhui Dong
+  url:               http://shdong.github.io
+  email:             shuhuidong@gmail.com
 
 # Custom vars
 #version:             2.0.0
 github:
-  repo:              github.com/hwdong/hwdong.github.io
+  repo:              github.com/shdong/shdong.github.io
 
 # Gems
 gems:
@@ -37,8 +37,7 @@ gems:
 
 pages_list:       
   About: '/about'
-  Archive: '/archive'
-  tumblr: 'http://hongweidong.tumblr.com'  
+  Archive: '/archive' 
   #Feed: '/atom.xml'
 
   # Duoshuo settings
