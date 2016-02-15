@@ -1,0 +1,47 @@
+# Permalinks
+permalink:           pretty
+
+markdown:      maruku
+
+# Setup
+title:               blog.hwdong.com
+tagline:             
+url:                 http://blog.hwdong.com
+shorturl:            blog.hwdong.com
+paginate:            5
+baseurl:             ""
+excerpt_separator: <!--more-->  #global excerpt separator for the blog posts
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Hongwei Dong
+  url:               https://hwdong.com
+  email:             hwdong.cn@gmail.com
+
+# Custom vars
+#version:             2.0.0
+github:
+  repo:              github.com/hwdong/hwdong.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  tumblr: 'http://hongweidong.tumblr.com'  
+  #Feed: '/atom.xml'
+
+  # Duoshuo settings
+duoshuo_username: hwd
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
